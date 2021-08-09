@@ -22,5 +22,5 @@ jobs:
       - uses: scaffoldly/bump-version-action@v1
         with:
           action: prerelease
-          version-file: "${{ github.event.inputs.version-file }}"
+          version-file: sly.json
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
